@@ -21,7 +21,6 @@
 
 .about-section__text-overview {
     margin: 0;
-    
 }
 
 .about-section__text-overview:first-child {
@@ -89,14 +88,13 @@
 }
 
 .about-section__images {
-    max-width: 600px;
+    width: calc(1180px - 580px);
+    
 }
 
 .about-section__images-wrapper {
     display: inline-block;
     vertical-align: top;
-    max-width: calc(100% - 500px);
-    width: 100%;
     padding: 0 80px 0 0;
 }
 
@@ -105,23 +103,5 @@
     display: inline-block;
     vertical-align: top;
     text-align: left;
-    max-width: 500px;
+    max-width: calc(100% - 680px);
 }
-
-
-/* .about-section__wrapper-text::before{ 
-    content: "";
-    top: 0;
-    right: 580px;
-    position: absolute;
-    background-image: url("../img/figure.jpeg");
-    background-position: center;
-    background-size: 600px 598px;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 600px;
-    height: 100%;
-    max-height: 600px;
-
-} */
-
