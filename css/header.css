@@ -1,0 +1,26 @@
+.header {
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.header__link-text {
+    padding: 12px 32px;
+    line-height: 30px;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,70 @@
+.assortment-section {
+    padding-bottom: 50px;
+}
+
+.assortment-section__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.assortment-section__item {
+    position: relative;
+}
+
+.assortment-section__item::before {
+    top: 166px;
+    left: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}    
+
+.assortment-section__item-vr::before{
+    position: absolute;
+    content: "VR очки";
+}
+
+.assortment-section__item-audio::before{
+    position: absolute;
+    content: "Аудио-система 5.1 с отличным звуком";
+    max-width: 198px;
+}
+
+.assortment-section__item-micro::before{
+    position: absolute;
+    content: "Караоке (4 микрофона)";
+}
+
+.assortment-section__item-game::before{
+    position: absolute;
+    content: "Настольные игры";
+}
+
+.assortment-section__item-netflix::before{
+    position: absolute;
+    content: "Кино сервисы Netflix, IVI, MegoGo, КиноПоиск, Okko";
+}
+
+.assortment-section__item-station::before{
+    position: absolute;
+    content: "РlаyStаtiоn 5";
+}
+
+.assortment-section__img {
+    flex-basis: 380px;
+    
+}
+
+.assortment-section__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.assortment-section__title-text{
+    max-width: 600px;
+}

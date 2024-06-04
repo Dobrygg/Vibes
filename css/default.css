@@ -38,7 +38,6 @@ body {
     margin: 0 auto;
     max-width: 1240px;
     padding: 0 30px;
-    
 }
 
 img,
@@ -73,6 +72,14 @@ ul {
 
 h1, h2, h3, p, figure, fieldset {
     margin: 0;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    text-align: center;
 }
 
 .visually-hidden {

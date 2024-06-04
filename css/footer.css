@@ -1,5 +1,6 @@
 .footer {
     padding: 50px 0 50px;
+    background-image: linear-gradient(#1B1A1B,#370A37);
 }
 
 .address {
@@ -10,10 +11,12 @@
 
 .address__contact {
     display: block;
+    font-style: normal;
     max-width: 350px;
     width: max-content;
     padding-left: 50px;
     font-size: 24px;
+    line-height: 28px;
     font-weight: 700;
     background-repeat: no-repeat;
     background-position: left;
@@ -62,4 +65,21 @@
 
 .footer__title {
     margin-bottom: 60px;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 156px;
+}
+
+.footer__script-wrapper {
+    display: flex;
+    justify-content: space-between;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.footer__script-developer {
+    text-align: right;
 }
