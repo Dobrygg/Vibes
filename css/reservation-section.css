@@ -1,5 +1,5 @@
-.reservation-section{
-    padding: 50px 0 50px;
+.reservation-section {
+    padding: 80px 0 80px;
     background-color: #440F51;
     
 }
@@ -7,6 +7,7 @@
 fieldset {
     border: none ;
 }
+
 .button-reservation {
     background-color: #f9f4f4;
     border: 1px solid #f9f4f4;
@@ -20,14 +21,16 @@ fieldset {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 
 }
 
 .reservation-section__fieldset-wrapper {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 61px;
+    justify-content: center;
+    margin-bottom: 60px;
+    flex-basis: 1080px;
+    gap: 60px;
 }
 
 .reservation-section__input {
@@ -39,7 +42,7 @@ fieldset {
     font-weight: 700;
     font-size: 24px;
     line-height: calc(28 /24);
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 .reservation-section__label {
@@ -59,7 +62,7 @@ fieldset {
     line-height: calc(40 /30);
     color: #000000;
     text-transform: uppercase;
-    padding: 7px 15px 8px;
+    padding: 7px 36px 8px;
     background-color: #ffffff;
     border-radius: 8px;
 }
@@ -78,6 +81,8 @@ fieldset {
 .reservation-section__fieldset-column {
     display: flex;
     flex-direction: column;
+    flex-basis: 300px;
+    
 }
 
 .reserved-section__input{
@@ -101,7 +106,7 @@ fieldset {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
-    gap: 50px;
+    row-gap: 14px ;
     margin-bottom: 40px;
 }
 
@@ -114,10 +119,6 @@ fieldset {
     gap: 32px;
 }
 
-label {
-    font-size: 22px;
-}
-
 .reservation-section__info-date {
     max-width: 300px;
     display: flex;
@@ -128,8 +129,8 @@ label {
 .reservation-section__input-date {
     width: 134px;
     height: 52px;
-    position: relative;
     background-color: #ffffff;
+    display: flex;
 
 }    
 
@@ -164,7 +165,8 @@ label {
 }
 
 .reservation-section__label-input {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     height: 52px;
     font-size: 22px;
     padding: 10px;
