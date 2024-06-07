@@ -1,5 +1,5 @@
 .banner-section {
-    padding: 146px 0 50px;
+    padding: 50px 0 50px;
 }
 
 .banner-section__wrapper {
@@ -41,10 +41,6 @@
 
 .banner-section__content-hall {
     flex-basis: 193px;
-}
-
-.banner-section__content-innovations {
-    flex-basis: 193px;
     display: flex;
     flex-direction: column;
 }
@@ -75,8 +71,10 @@
     font-size: 26px;
     line-height: 30px;
     text-transform: uppercase;
-    background-color: #6C0287;
+    background-color: rgb(108, 2, 135);
+    backdrop-filter: blur(6px);
     border-radius: 10px;
+    border: 1px solid black;
 }
 
 .banner-section__link-vector {

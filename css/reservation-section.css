@@ -33,9 +33,7 @@ fieldset {
     gap: 60px;
 }
 
-.reservation-section__input {
-    display: none;
-}
+
 
 .reservation-section__legend {
     text-align: center;
@@ -47,6 +45,7 @@ fieldset {
 
 .reservation-section__label {
     display: flex;
+    max-width: max-content;
     align-items: center;
     gap: 12px;
     margin-bottom: 20px;
@@ -54,17 +53,6 @@ fieldset {
 
 .reservation-section__label:last-child {
     margin: 0;
-}
-
-.reservation-section__label-text {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: calc(40 /30);
-    color: #000000;
-    text-transform: uppercase;
-    padding: 7px 36px 8px;
-    background-color: #ffffff;
-    border-radius: 8px;
 }
 
 .reserved-section__text-item {
@@ -89,6 +77,26 @@ fieldset {
     width: 27px;
     height: 27px;
 }
+.reservation-section__input-hall {
+    display: none;
+    
+}
+
+.reservation-section__label-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: calc(40 /30);
+    color: #000000;
+    text-transform: uppercase;
+    padding: 7px 36px 8px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* .reservation-section__label-text:checked{
+    color: rgb(255, 89, 0);
+    background-color: #2fe30f;
+} */
 
 .reservation-section__input-wrapper {
     display: flex;
@@ -106,7 +114,7 @@ fieldset {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
-    row-gap: 14px ;
+    gap: 14px 50px;
     margin-bottom: 40px;
 }
 
@@ -128,26 +136,42 @@ fieldset {
 
 .reservation-section__input-date {
     width: 134px;
-    height: 52px;
     background-color: #ffffff;
-    display: flex;
+    line-height: calc(28 /18);
+    padding: 12px 20px;
 
 }    
 
 .reservation-section__input-universal {
     max-width: 300px;
     width: 100%;
-    height: 52px; 
 }
 
 .reservation-section__label-data{
     font-size: 14px;
+    line-height: calc(16 /14);
+    margin-bottom: 6px;
+    display: block;
+}
+
+.reservation-section__label-data_width-less {
+    max-width: 280px;
+    line-height: calc(16 /14);
+    display: block;
     margin-bottom: 6px;
 }
 
+.reservation-section__label-wrapper_width-less {
+    max-width: 280px;
+    display: block;
+    flex-basis: 300px;
+    font-size: 14px;
+    line-height: calc(16 /14);
+    font-weight: 700;
+}
+
 .reservation-section__label-wrapper {
-    display: flex;
-    flex-direction: column;
+    display: block;
     flex-basis: 300px;
     font-size: 14px;
     line-height: calc(16 /14);
@@ -156,21 +180,16 @@ fieldset {
 
 .reservation-section__input-name {
     max-width: 280px;
-    height: 52px;
-    padding: 0;
-    margin: 0;
     font-size: 22px;
-    padding: 10px;
-    line-height: calc(32 / 22);
+    line-height: calc(28 /22);
+    padding: 12px 20px;
 }
 
 .reservation-section__label-input {
     max-width: 300px;
-    width: 100%;
-    height: 52px;
     font-size: 22px;
-    padding: 10px;
-    line-height: calc(32 / 22);
+    line-height: calc(28 /22);
+    padding: 12px 20px;
 }
 
 .button-reservation-wrapper {
@@ -190,12 +209,7 @@ fieldset {
     text-transform: uppercase;
 }   
 
-.reserved-section__line-wrapper {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 50px
-}
+
 
 .reserved-section__time-wrapper {
     display: flex;
