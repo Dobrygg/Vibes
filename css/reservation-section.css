@@ -22,7 +22,6 @@ fieldset {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 60px;
-
 }
 
 .reservation-section__fieldset-wrapper {
@@ -32,8 +31,6 @@ fieldset {
     flex-basis: 1080px;
     gap: 60px;
 }
-
-
 
 .reservation-section__legend {
     text-align: center;
@@ -47,8 +44,9 @@ fieldset {
     display: flex;
     max-width: max-content;
     align-items: center;
-    gap: 12px;
     margin-bottom: 20px;
+    font-size: 22px;
+    gap: 12px;
 }
 
 .reservation-section__label:last-child {
@@ -57,6 +55,8 @@ fieldset {
 
 .reserved-section__text-item {
     font-size: 22px;
+    display: flex;
+    flex-basis: content;
 }
 
 .reservation-section__legend-left {
@@ -73,10 +73,11 @@ fieldset {
     
 }
 
-.reserved-section__input{
+.reserved-section__input {
     width: 27px;
     height: 27px;
 }
+
 .reservation-section__input-hall {
     display: none;
 }    
@@ -90,12 +91,13 @@ fieldset {
     padding: 7px 36px 8px;
     background-color: #ffffff;
     border-radius: 8px;
+    cursor: pointer;
 }
 
-/* .reservation-section__label-text:checked{
+.reservation-section__input-hall:checked + .reservation-section__label-text{
     color: rgb(255, 89, 0);
     background-color: #2fe30f;
-} */
+}
 
 .reservation-section__input-wrapper {
     display: flex;
@@ -151,6 +153,7 @@ fieldset {
     line-height: calc(16 /14);
     margin-bottom: 6px;
     display: block;
+    font-size: 14px;
 }
 
 .reservation-section__label-data_width-less {
@@ -158,12 +161,17 @@ fieldset {
     line-height: calc(16 /14);
     display: block;
     margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.reservation-section__label-wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .reservation-section__label-wrapper_width-less {
-    max-width: 280px;
     display: block;
-    flex-basis: 300px;
+    max-width: 280px;
     font-size: 14px;
     line-height: calc(16 /14);
     font-weight: 700;
@@ -171,17 +179,22 @@ fieldset {
 
 .reservation-section__label-wrapper {
     display: block;
-    flex-basis: 300px;
     font-size: 14px;
     line-height: calc(16 /14);
     font-weight: 700;
 }    
 
 .reservation-section__input-name {
+    display: block;
     max-width: 280px;
     font-size: 22px;
     line-height: calc(28 /22);
     padding: 12px 20px;
+    margin-bottom: 14px;
+}
+
+.reservation-section__input-name:last-child {
+    margin-bottom: 0;
 }
 
 .reservation-section__label-input {
@@ -189,12 +202,19 @@ fieldset {
     font-size: 22px;
     line-height: calc(28 /22);
     padding: 12px 20px;
+    margin-bottom: 14px;
+}
+
+
+.reservation-section__label-input:last-child {
+    margin-bottom: 0;
 }
 
 .button-reservation-wrapper {
-    display: flex;
-    justify-content: end;
-    padding-right: 100px;
+    display: block;
+    margin: 0 auto;
+    text-align: right;
+    max-width: 980px;
 }   
 
 .button-reservation {
@@ -208,11 +228,10 @@ fieldset {
     text-transform: uppercase;
 }   
 
-
-
 .reserved-section__time-wrapper {
     display: flex;
     flex-basis: 300px;
     justify-content: space-between;
+    margin-bottom: 36px;
     
 }

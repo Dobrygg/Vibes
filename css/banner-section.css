@@ -37,6 +37,7 @@
     gap: 40px;
     align-items: flex-end;
     margin-bottom: 150px;
+    
 }
 
 .banner-section__content-hall {
@@ -65,16 +66,37 @@
     text-align: center;
 }
 
+.banner-section__link {
+    position: relative;
+    font-size: 0;
+    z-index: 1;
+}    
+
+.banner-section__wrapper-link {
+    display: flow-root;
+    margin-bottom: 25px;
+}
+
 .banner-section__link-text {
+    text-transform: uppercase;
     padding: 25px 69px;
+    display: inline;
     font-weight: 700;
     font-size: 26px;
-    line-height: 30px;
-    text-transform: uppercase;
+    line-height: calc(30 / 26);
     background-color: rgb(108, 2, 135);
-    box-shadow: inset 0px 0px 40px 5px  rgb(108, 2, 135), 0px 0px 6px 2px rgb(108, 2, 135);
     border-radius: 10px;
     border: 1px solid black;
+}
+
+.banner-section__link::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    filter: blur(10px);
+    background-color: rgb(108, 2, 135);
+    z-index: -1;
+
 }
 
 .banner-section__link-vector {

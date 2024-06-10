@@ -55,15 +55,16 @@
                     <p class="banner-section__subtitle">
                         Новый формат игр и отдыха
                     </p>
-                    <div class="banner-section__wrapper-content">
-                        <div class="banner-section__content-hall">
-                            <p class="banner-section__text-bold">4</p>
-                            <p class="banner-section__text">Тематических зала</p>
-                        </div>
-                        <div class="banner-section__content-hall">
-                            <p class="banner-section__text-below">new</p>
-                            <p class="banner-section__text">Новейшая аппаратура</p>
-                                
+                    <div class="banner-section__wrapper-link">
+                        <div class="banner-section__wrapper-content">
+                            <div class="banner-section__content-hall">
+                                <p class="banner-section__text-bold">4</p>
+                                <p class="banner-section__text">Тематических зала</p>
+                            </div>
+                            <div class="banner-section__content-hall">
+                                <p class="banner-section__text-below">new</p>
+                                <p class="banner-section__text">Новейшая аппаратура</p>
+                            </div>
                         </div>
                     </div>
                     <a href="#reserved" class="banner-section__link">
@@ -71,7 +72,8 @@
                             Забронировать
                         </span>
                     </a>
-                    <a href="#assortiment" class="banner-section__link-vector"></a>
+                    <a href="#assortiment" class="banner-section__link-vector">
+                    </a>
                 </div>
             </div>    
         </section>
@@ -161,81 +163,76 @@
                                 <legend class="reservation-section__legend-left">Приставка:</legend>
                                 <label class="reservation-section__label">
                                         <input class="reserved-section__input" type="radio" name="game-pad" value="play-station">
-                                        <span class="reserved-section__text-item">PlayStation</span>
+                                        PlayStation
                                 </label>
-        
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="radio" name="game-pad" value="sega-mega-drive">
-                                    <span class="reserved-section__text-item">Sega Mega Drive</span>
+                                    Sega Mega Drive
                                 </label>
-                                
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="radio" name="game-pad" value="x-box-one-s">
-                                    <span class="reserved-section__text-item">X-box One S</span>
+                                    X-box One S
                                 </label>    
-                                
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="radio" name="game-pad" value="dendy">
-                                    <span class="reserved-section__text-item">Dendy</span>
+                                    Dendy
                                 </label>
                             </fieldset>
                             <fieldset class="reservation-section__fieldset-column">
                                 <legend class="reservation-section__legend-left">Настольные игры</legend>
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="checkbox" name="table-games" value="jenda">
-                                    <span class="reserved-section__text-item">Jenda</span>
+                                    Jenda
                                 </label>     
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="checkbox" name="table-games" value="monopoly">
-                                    <span class="reserved-section__text-item">Monopoly</span>
+                                    Monopoly
                                 </label> 
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="checkbox" name="table-games" value="манчкин">
-                                    <span class="reserved-section__text-item">Munchkin</span>
+                                    Munchkin
                                 </label> 
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="checkbox" name="table-games" value="alias">
-                                    <span class="reserved-section__text-item">Alias</span>
+                                    Alias
                                 </label> 
                             </fieldset>
                             <fieldset class="reservation-section__fieldset-column">
                                 <legend class="reservation-section__legend-left">Дополнительно</legend>
-                                <div class="reservation-section__input-wrapper">
+                                <label class="reservation-section__label" for="karaoke" >
                                     <input class="reserved-section__input" id="karaoke" type="checkbox" name="relax" value="karaoke">
-                                    <label class="reserved-section__text-item" for="karaoke" >Караоке</label>
-                                </div>
-                                <div class="reservation-section__input-wrapper">
+                                    Караоке
+                                </label>
+                                <label class="reservation-section__label" for="vr">
                                     <input class="reserved-section__input" id="vr" type="checkbox" name="relax" value="vr">
-                                    <label class="reserved-section__text-item" for="vr">VR</label>
-                                </div>
+                                    VR
+                                </label>
                             </fieldset>
                         </div>    
                     </fieldset>
                         <fieldset>
                         <legend class="reservation-section__legend">Выберите дату и время</legend>
                             <div class="reservation-section__info-wrapper">
-                                <div class="reserved-section__time-wrapper">
-                                    <input  class="reservation-section__input-date" type="date" name="date" placeholder="Дата"    required>    
-                                    <input class="reservation-section__input-date" type="time" name="time" placeholder="Время" required>
+                                <div class="reserved-section__label-wrapper">
+                                    <div class="reserved-section__time-wrapper">
+                                        <input  class="reservation-section__input-date" type="date" name="date" placeholder="Дата"    required>    
+                                        <input class="reservation-section__input-date" type="time" name="time" placeholder="Время" required>
+                                    </div>
+                                    <input class="reservation-section__label-input" type="number" name="people" placeholder="Сколько человек"  required>
                                 </div>
                                 <div class="reservation-section__label-wrapper_width-less">
                                     <label class="reservation-section__label-data_width-less" for="name">Имя</label> 
                                     <input class="reservation-section__input-name" type="text" name="name" id="name"  required>
-                                </div>
-                                <div class="reservation-section__label-wrapper">
-                                    <label class="reservation-section__label-data" for="phone">Телефон</label>
-                                    <input class="reservation-section__label-input" type="tel" name="phone" minlength="11" maxlength="11"  id="phone" required> 
-                                </div>
-                                <input class="reservation-section__label-input" type="number" name="people" placeholder="Сколько человек"  required>
-                                <div class="reservation-section__label-wrapper_width-less">
                                     <label class="reservation-section__label-data_width-less" for="suname">Фамилия</label>
                                     <input class="reservation-section__input-name" type="text" name="suname"  id="suname" required>
                                 </div>
                                 <div class="reservation-section__label-wrapper">
+                                    <label class="reservation-section__label-data" for="phone">Телефон</label>
+                                    <input class="reservation-section__label-input" type="tel" name="phone" minlength="11" maxlength="11"  id="phone" required> 
                                     <label class="reservation-section__label-data" for="email">E-mail</label>
                                     <input class="reservation-section__label-input" type="email" name="email"  id="email" required>
                                 </div>
-                            </div>
+                            </div>    
                         </fieldset>        
                     <div class="button-reservation-wrapper">
                         <button class="button-reservation" type="submit">Забронировать</button>

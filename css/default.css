@@ -74,6 +74,10 @@ h1, h2, h3, p, figure, fieldset {
     margin: 0;
 }
 
+fieldset {
+    padding: 0;
+}
+
 .title {
     font-weight: 700;
     font-size: 40px;
