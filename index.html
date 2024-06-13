@@ -159,7 +159,7 @@
                     <fieldset>
                         <legend class="reservation-section__legend"> Собери набор развлечений</legend>
                         <div class="reservation-section__fieldset-wrapper">
-                            <fieldset class="reservation-section__fieldset-column">
+                            <fieldset class="reservation-section__fieldset-left">
                                 <legend class="reservation-section__legend-left">Приставка:</legend>
                                 <label class="reservation-section__label">
                                         <input class="reserved-section__input" type="radio" name="game-pad" value="play-station">
@@ -178,7 +178,7 @@
                                     Dendy
                                 </label>
                             </fieldset>
-                            <fieldset class="reservation-section__fieldset-column">
+                            <fieldset class="reservation-section__fieldset-center">
                                 <legend class="reservation-section__legend-left">Настольные игры</legend>
                                 <label class="reservation-section__label">
                                     <input class="reserved-section__input" type="checkbox" name="table-games" value="jenda">
@@ -197,7 +197,7 @@
                                     Alias
                                 </label> 
                             </fieldset>
-                            <fieldset class="reservation-section__fieldset-column">
+                            <fieldset class="reservation-section__fieldset-right">
                                 <legend class="reservation-section__legend-left">Дополнительно</legend>
                                 <label class="reservation-section__label" for="karaoke" >
                                     <input class="reserved-section__input" id="karaoke" type="checkbox" name="relax" value="karaoke">
@@ -215,15 +215,18 @@
                             <div class="reservation-section__info-wrapper">
                                 <div class="reserved-section__label-wrapper">
                                     <div class="reserved-section__time-wrapper">
-                                        <input  class="reservation-section__input-date" type="date" name="date" placeholder="Дата"    required>    
-                                        <input class="reservation-section__input-date" type="time" name="time" placeholder="Время" required>
+                                        <input  class=" reservation-section__label-input 
+                                        reservation-section__input-date" type="date" name="date" placeholder="Дата"    required>    
+                                        <input class=" reservation-section__label-input
+                                        reservation-section__input-date" type="time" name="time" placeholder="Время" required>
                                     </div>
                                     <input class="reservation-section__label-input" type="number" name="people" placeholder="Сколько человек"  required>
                                 </div>
-                                <div class="reservation-section__label-wrapper_width-less">
-                                    <label class="reservation-section__label-data_width-less" for="name">Имя</label> 
+                                <div class=" reservation-section__label-wrapper
+                                reservation-section__label-wrapper_width-less">
+                                    <label class="reservation-section__label-data" for="name">Имя</label> 
                                     <input class="reservation-section__input-name" type="text" name="name" id="name"  required>
-                                    <label class="reservation-section__label-data_width-less" for="suname">Фамилия</label>
+                                    <label class="reservation-section__label-data" for="suname">Фамилия</label>
                                     <input class="reservation-section__input-name" type="text" name="suname"  id="suname" required>
                                 </div>
                                 <div class="reservation-section__label-wrapper">
