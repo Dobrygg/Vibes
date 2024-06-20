@@ -24,3 +24,18 @@
     border-radius: 10px;
     text-transform: uppercase;
 }
+
+.header__button-phone:hover {
+    background-color: #6C0287;
+    border: 3px solid #6C0287;
+}
+
+.header__button-phone:active {
+    background-color: rgb(100, 10, 163);
+    border: 3px solid rgb(100, 10, 163);
+}
+
+.header__button-phone:focus {
+    background-color: #6C0287;
+    border: 3px solid #6C0287;
+}

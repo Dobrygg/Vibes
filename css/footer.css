@@ -63,6 +63,43 @@
     display: block;
 } 
 
+svg path:hover {
+    fill: #EADEED ;
+}
+
+svg path:active {
+    fill: #CD06FF;
+}
+
+svg path:focus {
+    fill: #EADEED;
+}
+
+.social-list__img:hover #half1 {
+    fill: #EADEED;
+}
+
+.social-list__img:hover #half2 {
+    fill: #EADEED;
+}
+
+.social-list__img:active #half1 {
+    fill: #CD06FF;
+}
+
+.social-list__img:active #half2 {
+    fill: #CD06FF;
+}
+
+.social-list__img:focus #half1 {
+    fill: #EADEED;
+}
+
+.social-list__img:focus #half2 {
+    fill: #EADEED;
+}
+
+
 .footer__title {
     margin-bottom: 60px;
 }
@@ -83,3 +120,4 @@
 .footer__script-developer {
     text-align: right;
 }
+
