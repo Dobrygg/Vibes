@@ -30,6 +30,18 @@
     background-size: cover;
 }
 
+.hall-section__link:hover {
+    color: #CD06FF;
+    border: 1px solid #CD06FF;
+}    
+    
+.hall-section__link:focus {
+    color: #6C0287;
+    border: 1px solid #6C0287;
+}
+
+
+
 .hall-section__text{
     max-width: 240px;
     display: inline-block;

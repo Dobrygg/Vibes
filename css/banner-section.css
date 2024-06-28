@@ -10,15 +10,17 @@
 .banner-section__wrapper::before {
     content: '';
     position: absolute;
-    inset: 0;
+    top: 0;
+    right: 0;
+    z-index: 0;
     display: block;
     background-image: url("../img/main.png");
     background-size:  675px 762px;
     background-repeat: no-repeat;
     background-position: bottom right;
     min-height: 823px;
-
-}
+    min-width: calc(1180px - 40%);
+}    
 
 .banner-section__title {
     text-transform: uppercase;
@@ -76,28 +78,25 @@
     text-align: center;
 }
 
-.banner-section__link {
+.banner-section__wrapper-link{
     position: relative;
-    font-size: 0;
-    z-index: 1;
-}    
+    display: flex;
 
-.banner-section__wrapper-link {
-    display: flow-root;
-    margin-bottom: 25px;
 }
 
-.banner-section__link-text {
+.banner-section__link {
+    z-index: 1;
+    position: relative;
     text-transform: uppercase;
     padding: 25px 69px;
-    display: inline;
+    display: inline-block;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(30 / 26);
     background-color: rgb(108, 2, 135);
     border-radius: 10px;
     border: 1px solid black;
-}
+} 
 
 .banner-section__link::before {
     content: "";
@@ -106,38 +105,51 @@
     filter: blur(10px);
     background-color: rgb(108, 2, 135);
     z-index: -1;
-
 }
 
-.banner-section__link-vector {
-    display: block;
-    height: 97px;
-    background-image: url(../img/Vector.svg);
-    background-size: 97px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.banner-section__link-vector:hover {
-    background-image: url(../img/vector-hover.svg);
-}
-
-.banner-section__link-vector:active {
-    background-image: url(../img/Vector-active.svg);
-}
-
-.banner-section__link-vector:focus {
-    background-image: url(../img/Vector-focus.svg);
-}
-
-.banner-section__link-text:hover {
+.banner-section__link:hover {
     background-color: rgb(132, 10, 163);
 }
 
-.banner-section__link-text:active {
+.banner-section__link:focus {
+    background-color: rgb(132, 10, 163);
+}
+
+.banner-section__link:active {
     background-color: rgb(100, 10, 163);
 }
 
-.banner-section__link-text:focus {
-    background-color: rgb(132, 10, 163);
+.banner-section__link-vector::after {
+    position: absolute;
+    content: '';
+    top: 50px;
+    left: 539px;
+    display: block;
+    height: 97px;
+    width: 97px;
+    background-image: url(../img/vector.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
 }
+
+.banner-section__link-vector:hover::after {
+    background-image: url(../img/vector-hover.svg);
+}
+
+.banner-section__link-vector:focus:after {
+    -webkit-appearance: none ;
+    background-image: url(../img/vector-focus.svg);
+    border: 1px solid #CD06FF;
+    box-sizing: content-box;
+}
+
+.banner-section__link-vector:active:after  {
+    -webkit-appearance: none ;
+    box-sizing: content-box;
+    background-image: url(../img/vector-active.svg);
+    border: 1px solid transparent;
+}
+
+
+

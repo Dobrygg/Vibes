@@ -61,18 +61,24 @@
 
 .social-list__link {
     display: block;
-} 
+    width: 49px;
+    height: 49px;
 
-svg path:hover {
-    fill: #EADEED ;
+}     
+
+.social-list__link:hover {
+    color: #EADEED ;
+    
 }
 
-svg path:active {
-    fill: #CD06FF;
+.social-list__link:focus {
+    color: #EADEED;
+    outline: 1px solid #CD06FF;
 }
 
-svg path:focus {
-    fill: #EADEED;
+.social-list__link:active {
+    color: #CD06FF;
+    outline: 1px solid transparent;
 }
 
 .social-list__img:hover #half1 {
@@ -99,6 +105,30 @@ svg path:focus {
     fill: #EADEED;
 }
 
+.footer__script-link:hover {
+    color: #CD06FF;
+}
+
+.footer__script-link:focus{
+    color: #6C0287;
+}
+
+
+.address__contact_type_phone:hover {
+    color: #CD06FF;
+}
+
+.address__contact_type_phone:focus {
+    color: #6C0287;    
+}
+
+.address__contact_type_email:hover {
+    color: #CD06FF;
+}
+
+.address__contact_type_email:focus {
+    color: #6C0287;
+}
 
 .footer__title {
     margin-bottom: 60px;
