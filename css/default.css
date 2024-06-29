@@ -76,6 +76,7 @@ h1, h2, h3, p, figure, fieldset {
 
 fieldset {
     padding: 0;
+    border: none;
 }
 
 .title {

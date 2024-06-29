@@ -127,27 +127,27 @@
     display: block;
     height: 97px;
     width: 97px;
-    background-image: url(../img/vector.svg);
+    background-image: url("../img/vector.svg");
     background-repeat: no-repeat;
     background-position: center;
     z-index: 2;
 }
 
 .banner-section__link-vector:hover::after {
-    background-image: url(../img/vector-hover.svg);
+    background-image: url("../img/vector-hover.svg");
 }
 
 .banner-section__link-vector:focus:after {
-    -webkit-appearance: none ;
-    background-image: url(../img/vector-focus.svg);
+    
+    background-image: url("../img/vector-focus.svg");
     border: 1px solid #CD06FF;
     box-sizing: content-box;
 }
 
 .banner-section__link-vector:active:after  {
-    -webkit-appearance: none ;
+    
     box-sizing: content-box;
-    background-image: url(../img/vector-active.svg);
+    background-image: url("../img/vector-active.svg");
     border: 1px solid transparent;
 }
 

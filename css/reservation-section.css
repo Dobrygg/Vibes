@@ -3,10 +3,6 @@
     background-color: #440F51;
 }
 
-fieldset {
-    border: none ;
-}
-
 .button-reservation {
     background-color: #f9f4f4;
     border: 1px solid #f9f4f4;
@@ -47,10 +43,6 @@ fieldset {
     gap: 12px;
 }
 
-/* input:focus {
-    outline: none;
-} */
-
 .reserved-section__input {
     position: relative;
     width: 24px;
@@ -70,7 +62,6 @@ fieldset {
     border: 1px solid #CD06FF;
     outline: none; 
     border-radius: 50%;
-
 }
 
 .reserved-section__input-checkbox {
@@ -88,7 +79,6 @@ fieldset {
     inset: 0;
     display: block;
     border: 1px solid #CD06FF;
-    
 }
 
 .reservation-section__label:last-child {
@@ -113,7 +103,6 @@ fieldset {
     flex-direction: column;
     flex-basis: 300px;
     align-items: flex-start;
-    
 }
 
 .reservation-section__fieldset-center {
@@ -135,9 +124,6 @@ fieldset {
     height: 27px;
 }
 
-.reservation-section__input-hall {
-    display: none;
-}    
 
 .reservation-section__label-text {
     font-weight: 700;
@@ -158,9 +144,8 @@ fieldset {
 }
 
 .reservation-section__label-text:focus{
-    border:3px solid #640AA3;
-    background-color: #fff ;
-    color: #000000;
+    border:3px solid rgb(100, 10, 163);
+    background-color: rgb(234, 222, 237);
 }
 
 .reservation-section__label-text:active {
@@ -168,6 +153,7 @@ fieldset {
     background-color: rgb(108, 2, 135);
     color: #fff;
 }
+
 
 .reservation-section__input-hall:checked + .reservation-section__label-text{
     border:3px solid #fff;
@@ -334,12 +320,6 @@ fieldset {
     background-color: #fff;
     color: rgb(108, 2, 135)
 }
-
-
-
-
-
-
 
 .reserved-section__time-wrapper {
     display: flex;

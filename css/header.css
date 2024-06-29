@@ -33,7 +33,7 @@
 }
 
 .header__button-phone {
-    position: relative;
+    color: #fff;
     padding: 12px 32px;
     line-height: 30px;
     border: 3px solid #CD06FF;
@@ -41,68 +41,6 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-
-/*.header__button-phone::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    display: block;
-    top: -2px;
-    right: -2px;
-    bottom: -2px;
-    left: -2px;
-    height: 57px;
-    background-color: transparent;
-    border: 3px solid #6C0287;
-    display: none; 
-
-}*/
-
-.header__button-phone:focus:before {
-    position: absolute;
-    -webkit-appearance: none;
-    top: -2px;
-    right: -2px;
-    bottom: -3px;
-    left: -2px;
-    width: 274px;
-    height: 58px;
-    content: 'ЗАКАЗАТЬ ';
-    display: block;
-    padding: 12px 32px;
-    line-height: 30px;
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
-    border-radius: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-}    
-
-
-.header__button-phone:focus:after {
-    position: absolute;
-    -webkit-appearance: none;
-    top: -2px;
-    right: -2px;
-    bottom: -3px;
-    left: -2px;
-    width: 274px;
-    height: 58px;
-    content: 'ЗАКАЗАТЬ ';
-    display: block;
-    padding: 12px 32px;
-    line-height: 30px;
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
-    border-radius: 10px;
-    text-transform: uppercase;
-    cursor: pointer;
-} 
-
-
-
-
-
 
 .header__button-phone:hover {
     background-color: #6C0287;

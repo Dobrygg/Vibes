@@ -33,14 +33,13 @@
 .hall-section__link:hover {
     color: #CD06FF;
     border: 1px solid #CD06FF;
+    padding: 92px 8px;
 }    
     
 .hall-section__link:focus {
     color: #6C0287;
     border: 1px solid #6C0287;
 }
-
-
 
 .hall-section__text{
     max-width: 240px;
