@@ -13,6 +13,7 @@
     display: inline-block;
     vertical-align: middle;
     width: calc(50% - 20px);
+    
     margin: 10px;
 
 }
@@ -33,12 +34,13 @@
 .hall-section__link:hover {
     color: #CD06FF;
     border: 1px solid #CD06FF;
-    padding: 92px 8px;
+    margin: -2px 0;
 }    
     
 .hall-section__link:focus {
     color: #6C0287;
     border: 1px solid #6C0287;
+    margin: -2px 0;
 }
 
 .hall-section__text{

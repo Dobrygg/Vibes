@@ -60,6 +60,7 @@
     display: block;
     background-color: transperent;
     border: 1px solid #CD06FF;
+
     outline: none; 
     border-radius: 50%;
 }
@@ -78,7 +79,6 @@
     content: '';
     inset: 0;
     display: block;
-    border: 1px solid #CD06FF;
 }
 
 .reservation-section__label:last-child {
@@ -143,7 +143,7 @@
     background-color: rgb(234, 222, 237);
 }
 
-.reservation-section__label-text:focus{
+.reservation-section__label-text:focus {
     border:3px solid rgb(100, 10, 163);
     background-color: rgb(234, 222, 237);
 }
