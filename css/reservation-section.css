@@ -163,7 +163,7 @@
     color: #fff;
 }
 
-.reservation-section__input-hall:not(:active, :checked):focus + .reservation-section__label-text {
+.reservation-section__input-hall:focus + .reservation-section__label-text {
     border:3px solid rgb(100, 10, 163); 
     /* background-color: rgb(255, 255, 255); */
 }
