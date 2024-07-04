@@ -81,6 +81,10 @@
 .banner-section__wrapper-link{
     position: relative;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 590px;
+    width: 100%;
 
 }
 
@@ -123,7 +127,7 @@
     position: absolute;
     content: '';
     top: 50px;
-    left: 539px;
+    right: 0;
     display: block;
     height: 97px;
     width: 97px;
@@ -134,18 +138,20 @@
     border-radius: 50%;
     z-index: 2;
 }
+
+
+
 .banner-section__link-vector::before {
     position: absolute;
     content: '';
     top: 50px;
-    left: 539px;
+    right: 0;
     display: block;
-    height: 100px;
-    width: 100px;
+    width: 97px;
+    height: 97px;
     background-repeat: no-repeat;
     background-position: 0 0 ;
     
-    z-index: 2;
 }
 
 
@@ -154,18 +160,24 @@
     background-color: #fff;
 }
 
-.banner-section__link-vector:focus::before {
-    background-image: url("../img/vector-focus k.png");
-    outline: none;
+.banner-section__link-vector:not(:active):focus::before  {
+    outline: 1px solid #CD06FF;
+    border-radius: 0%;
+    
+}
+
+.banner-section__link-vector:active:after  {
+    background-image: url("../img/vector.png");
+    background-color: #CD06FF;
+    outline: transparent;
+    border: 1px solid transparent;
     
 }
 
 
-.banner-section__link-vector:active:after  {
-    background-image: url("../img/vector.png");
-    outline: none;
-    background-color: #CD06FF;
-}
+
+
+
 
 
 

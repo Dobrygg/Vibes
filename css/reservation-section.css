@@ -60,7 +60,6 @@
     display: block;
     background-color: transperent;
     border: 1px solid #CD06FF;
-
     outline: none; 
     border-radius: 50%;
 }
@@ -126,6 +125,7 @@
 
 
 .reservation-section__label-text {
+    position: relative;
     font-weight: 700;
     font-size: 30px;
     line-height: calc(40 /30);
@@ -143,10 +143,6 @@
     background-color: rgb(234, 222, 237);
 }
 
-.reservation-section__label-text:focus {
-    border:3px solid rgb(100, 10, 163);
-    background-color: rgb(234, 222, 237);
-}
 
 .reservation-section__label-text:active {
     border:3px solid #fff;
@@ -154,12 +150,33 @@
     color: #fff;
 }
 
+/* .reservation-section__label-text::before {
+    position: absolute;
+    content: '';
+    display: block;
+    inset: 0;
+    
+} */
 
 .reservation-section__input-hall:checked + .reservation-section__label-text{
     border:3px solid #fff;
     background-color: rgb(108, 2, 135);
     color: #fff;
 }
+
+
+.reservation-section__input-hall:focus + .reservation-section__label-text {
+    border:3px solid rgb(100, 10, 163); 
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
 
 .reservation-section__input-wrapper {
     display: flex;
