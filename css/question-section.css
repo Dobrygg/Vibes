@@ -40,30 +40,36 @@
 
 .question-section__item:nth-child(odd)::after {
     background-image: url("../img/plus-purple.svg");
+    transition: 0.3s;
     
 } 
 
 .question-section__item:hover:nth-child(odd)::after {
     background-image: url("../img/plus-purple-hover.svg");
+    transition: 0.3s;
     
 }
 
 .question-section__item:active:nth-child(odd)::after {
     background-image: url("../img/plus-purple-active.svg");
+    transition: 0.3s;
     
 }
 
 .question-section__item:nth-child(even)::after {
     background-image: url("../img/plus-white.svg");
+    transition: 0.3s;
 }
 
 
 .question-section__item:hover:nth-child(even)::after {
     background-image: url("../img/plus-white-hover.svg");
+    transition: 0.3s;
 }
 
 .question-section__item:active:nth-child(even)::after {
     background-image: url("../img/plus-white-active.svg");
+    transition: 0.3s;
 }
 
 .question-section__title {

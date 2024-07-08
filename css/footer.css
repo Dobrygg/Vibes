@@ -68,66 +68,81 @@
 
 .social-list__link:hover {
     color: #EADEED ;
+    transition: 0.3s;
     
 }
 
 .social-list__link:focus {
     color: #EADEED;
     outline: 1px solid #CD06FF;
+    transition: 0.3s;
 }
 
 .social-list__link:active {
     color: #CD06FF;
     outline: 1px solid transparent;
+    transition: 0.3s;
 }
 
 .social-list__img:hover #half1 {
     fill: #EADEED;
+    transition: 0.3s;
 }
 
 .social-list__img:hover #half2 {
     fill: #EADEED;
+    transition: 0.3s;
 }
 
 .social-list__img:active #half1 {
     fill: #CD06FF;
+    transition: 0.3s;
 }
 
 .social-list__img:active #half2 {
     fill: #CD06FF;
+    transition: 0.3s;
 }
 
 .social-list__img:focus #half1 {
     fill: #EADEED;
+    transition: 0.3s;
 }
 
 .social-list__img:focus #half2 {
     fill: #EADEED;
+    transition: 0.3s;
 }
 
 .footer__script-link:hover {
     color: #CD06FF;
+    transition: 0.3s;
 }
 
 .footer__script-link:focus{
     color: #6C0287;
+    transition: 0.3s;
 }
 
 
 .address__contact_type_phone:hover {
     color: #CD06FF;
+    transition: 0.3s;
 }
 
 .address__contact_type_phone:focus {
-    color: #6C0287;    
+    color: #6C0287; 
+    transition: 0.3s;   
 }
 
 .address__contact_type_email:hover {
     color: #CD06FF;
+    transition: 0.3s;
 }
 
 .address__contact_type_email:focus {
     color: #6C0287;
+    transition: 0.3s;
 }
 
 .footer__title {

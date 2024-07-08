@@ -103,14 +103,17 @@
 
 .banner-section__link:hover {
     background-color: rgb(132, 10, 163);
+    transition: 0.3s;
 }
 
 .banner-section__link:focus {
     background-color: rgb(132, 10, 163);
+    transition: 0.3s;
 }
 
 .banner-section__link:active {
     background-color: rgb(100, 10, 163);
+    transition: 0.3s;
 }
 
 .banner-section__link-vector {
@@ -145,11 +148,13 @@
 .banner-section__link-vector:hover {
     background-image: url("../img/vector-hover.png");
     background-color: #fff;
+    transition: 0.3s;
 }
 
 .banner-section__link-vector:not(:active):focus::before  {
     outline: 1px solid #CD06FF;
     border-radius: 0%;
+    transition: 0.3s;
 }
 
 .banner-section__link-vector:active  {
@@ -157,6 +162,7 @@
     background-color: #CD06FF;
     outline: transparent;
     border: 1px solid transparent;
+    transition: 0.3s;
 }
 
 
