@@ -17,18 +17,25 @@
     text-transform: uppercase;
 }
 
+.header__item-link {
+    transition: .3s;
+}
+
 .header__item-link:hover {
     color: #6C0287;
+    transition: .3s;
     
 }
 
 .header__item-link:focus {
     color: #6C0287;
+    transition: .3s;
     
 }
 
 .header__item-link:active {
     color: rgb(100, 10, 163);
+    transition: .3s;
     
 }
 
@@ -40,20 +47,28 @@
     border-radius: 10px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .3s;
 }
+
+
 
 .header__button-phone:hover {
     background-color: #6C0287;
     border: 3px solid #6C0287;
+    transition-duration: .3s;
+    transition-property: background-color;
+    animation-fill-mode: forwards;
 }
 
 .header__button-phone:focus {
     background-color: #6C0287;
     border: 3px solid #6C0287;
+    transition-duration: .3s;
 }
 
 .header__button-phone:active {
     background-color: rgb(100, 10, 163);
     border: 3px solid rgb(100, 10, 163);
+    transition-duration: .3s;
 }
 

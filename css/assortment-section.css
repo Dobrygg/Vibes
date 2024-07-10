@@ -12,6 +12,7 @@
 
 .assortment-section__item {
     position: relative;
+    transition: .6s;
 }
 
 .assortment-section__item::before {

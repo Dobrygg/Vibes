@@ -90,6 +90,7 @@
     background-color: rgb(108, 2, 135);
     border-radius: 10px;
     border: 1px solid black;
+    transition: .3s;
 } 
 
 .banner-section__link::before {
@@ -103,17 +104,17 @@
 
 .banner-section__link:hover {
     background-color: rgb(132, 10, 163);
-    transition: 0.3s;
+    transition-delay: .3s;
 }
 
 .banner-section__link:focus {
     background-color: rgb(132, 10, 163);
-    transition: 0.3s;
+    transition-delay: .3s;
 }
 
 .banner-section__link:active {
     background-color: rgb(100, 10, 163);
-    transition: 0.3s;
+    transition-delay: .3s;
 }
 
 .banner-section__link-vector {
@@ -132,6 +133,7 @@
     outline: 1px solid #fff;
     border-radius: 50%;
     z-index: 2;
+    transition: .3s;
 }
 
 .banner-section__link-vector::before {
@@ -148,13 +150,16 @@
 .banner-section__link-vector:hover {
     background-image: url("../img/vector-hover.png");
     background-color: #fff;
-    transition: 0.3s;
+    transition-timing-function: ease-out;
+    transition-property: all;
+    transition-delay: .3s;
 }
 
 .banner-section__link-vector:not(:active):focus::before  {
     outline: 1px solid #CD06FF;
     border-radius: 0%;
-    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: all;
 }
 
 .banner-section__link-vector:active  {
@@ -162,7 +167,8 @@
     background-color: #CD06FF;
     outline: transparent;
     border: 1px solid transparent;
-    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-property: all;
 }
 
 

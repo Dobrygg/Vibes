@@ -136,17 +136,20 @@
     border-radius: 8px;
     cursor: pointer;
     border:3px solid #fff;
+    transition-delay: .3s;
 }
 
 .reservation-section__label-text:hover {
     border:3px solid rgb(100, 10, 163);
     background-color: rgb(234, 222, 237);
+    transition-delay: .3s;
 }
 
 
 .reservation-section__label-text:active {
     border:3px solid #fff;
     background-color: rgb(108, 2, 135);
+    transition-delay: .3s;
     color: #fff;
 }
 
@@ -161,10 +164,12 @@
     border:3px solid #fff;
     background-color: rgb(108, 2, 135);
     color: #fff;
+    transition-delay: .3s;
 }
 
 .reservation-section__input-hall:focus + .reservation-section__label-text {
     border:3px solid rgb(100, 10, 163); 
+    transition-delay: .3s;
     /* background-color: rgb(255, 255, 255); */
 }
 
@@ -222,10 +227,12 @@
     margin-bottom: 14px;
     border: 2px solid transperent;
     outline: none;
+    transition-delay: .3s;
 }
 
 .reservation-section__label-input:focus {
     border: 2px solid rgb(205, 6, 255);
+    transition-delay: .3s;
 }
 
 .reservation-section__input-date {
@@ -285,11 +292,13 @@
     padding: 12px 20px;
     margin-bottom: 14px;
     outline: none;
+    transition-delay: .3s;
 }
 
 .reservation-section__input-name:focus {
     border: 2px solid rgb(205, 6, 255);
     outline: none;
+    transition-delay: .3s;
 }
 
 .reservation-section__input-name:last-child {
@@ -318,22 +327,26 @@
     border-radius: 10px;
     font-weight: 700;
     text-transform: uppercase;
+    transition-delay: .3s;
 }   
 
 .button-reservation:hover {
     border: 3px solid rgb(108, 2, 135);
     background-color: rgb(234, 222, 237);
+    transition-delay: .3s;
 }
 
 .button-reservation:active {
     border: 3px solid transparent;
     background-color: rgb(234, 222, 237);
+    transition-delay: .3s;
 }
 
 .button-reservation:focus{
     border: 3px solid rgb(108, 2, 135);
     background-color: #fff;
-    color: rgb(108, 2, 135)
+    color: rgb(108, 2, 135);
+    transition-delay: .3s;
 }
 
 .reserved-section__time-wrapper {
