@@ -6,9 +6,6 @@
     display: flex;
     gap: 40px 20px;
     flex-wrap: wrap;
-    
-    
-    
 }
 
 .assortment-section__item {
@@ -24,14 +21,11 @@
     align-items: end;
     padding: 5px 40px;
     z-index: 1;
-
 }
 
-p {
+.assortment-section__text {
     min-height: 56px;
-    
 }
-
 
 .assortment-section__img {
     content: "";
@@ -44,7 +38,6 @@ p {
     
 }    
 
-
 .assortment-section__item:hover {
     transform: scale(1.1, 1.1);
     transition: 0.6s;
@@ -54,7 +47,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .assortment-section__title-text{
