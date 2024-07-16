@@ -22,19 +22,19 @@
 }
 
 .header__item-link:hover {
-    color: #6C0287;
+    color: var(--primary-color-light-purple);
     transition: .3s;
     
 }
 
 .header__item-link:focus {
-    color: #6C0287;
+    color: var(--primary-color-light-purple);
     transition: .3s;
     
 }
 
 .header__item-link:active {
-    color: rgb(100, 10, 163);
+    color: var(--primary-color-dark-purple);
     transition: .3s;
     
 }
@@ -43,7 +43,7 @@
     color: #fff;
     padding: 12px 32px;
     line-height: 30px;
-    border: 3px solid #CD06FF;
+    border: 3px solid var(--primary-color-pink);
     border-radius: 10px;
     text-transform: uppercase;
     cursor: pointer;
@@ -53,22 +53,22 @@
 
 
 .header__button-phone:hover {
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
+    background-color: var(--primary-color-light-purple);
+    border: 3px solid var(--primary-color-light-purple);
     transition-duration: .3s;
     transition-property: background-color;
     animation-fill-mode: forwards;
 }
 
 .header__button-phone:focus {
-    background-color: #6C0287;
-    border: 3px solid #6C0287;
+    background-color: var(--primary-color-light-purple);
+    border: 3px solid var(--primary-color-light-purple);
     transition-duration: .3s;
 }
 
 .header__button-phone:active {
-    background-color: rgb(100, 10, 163);
-    border: 3px solid rgb(100, 10, 163);
+    background-color: var(--primary-color-dark-purple);
+    border: 3px solid var(--primary-color-dark-purple);
     transition-duration: .3s;
 }
 

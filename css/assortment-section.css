@@ -8,6 +8,12 @@
     flex-wrap: wrap;
 }
 
+.assortment-section__item:nth-child(3n + 2) {
+    position: relative;
+    top: 70px;
+    left: 0;
+}
+
 .assortment-section__item {
     position: relative;
     max-width: calc((100% - 40px )/ 3 );
@@ -35,7 +41,6 @@
     width: 380px;
     z-index: -1;
     height: 100%;
-    
 }    
 
 .assortment-section__item:hover {
