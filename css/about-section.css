@@ -44,7 +44,7 @@
     position: absolute;
     top: -8px;
     left: 0;
-    color: #6C0287;
+    color: var(--primary-color-violet);
     font-weight: 900;
     font-size: 44px;
     line-height: 50px;
@@ -52,7 +52,7 @@
 
 .about-section__blockquote-text::after{
     content: " ”";
-    color: #6C0287;
+    color: var(--primary-color-violet);
     font-weight: 900;
     font-size: 44px;
     line-height: 50px;

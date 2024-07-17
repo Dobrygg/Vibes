@@ -43,20 +43,16 @@
     object-fit: cover;
     object-position: 50% 0%;
     border-radius: 50%; 
-    z-index: 2; 
+    opacity: .5;
 }
 
-.report-section__images::before {
-    content: "";
+.report-section__wrapper-img {
     width: 280px;
     height: 280px;
-    position: absolute;
-    display: block;
-    inset: 0;
+    border-radius: 50%;
     background-image: radial-gradient(50.00% 50.00% at 50% 50%,
                 rgba(196, 196, 196, 0),
                 rgba(108, 2, 135, 0.5) 100%);
-    z-index: 4; 
 }
 
 .report-section__images_position_middle {

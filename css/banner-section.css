@@ -59,7 +59,7 @@
 }
 
 .banner-section__text-bold {
-    color: #CD06FF;
+    color: var(--primary-color-pink);
     font-size: 100px;
     font-weight: 900;
     text-align: center;
@@ -71,7 +71,7 @@
 }
 
 .banner-section__text-below {
-    color: #CD06FF;
+    color: var(--primary-color-pink);
     font-size: 75px;
     font-weight: 900;
     line-height: 106px;
@@ -87,7 +87,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: calc(30 / 26);
-    background-color: rgb(108, 2, 135);
+    background-color: var(--primary-color-violet);
     border-radius: 10px;
     border: 1px solid black;
     transition: .3s;
@@ -98,22 +98,22 @@
     position: absolute;
     inset: 0;
     filter: blur(10px);
-    background-color: rgb(108, 2, 135);
+    background-color: var(--primary-color-violet);
     z-index: -1;
 }
 
 .banner-section__link:hover {
-    background-color: rgb(132, 10, 163);
+    background-color: var(--primary-color-light-purple);
     transition-delay: .3s;
 }
 
 .banner-section__link:focus {
-    background-color: rgb(132, 10, 163);
+    background-color: var(-primary-color-light-purple);
     transition-delay: .3s;
 }
 
 .banner-section__link:active {
-    background-color: rgb(100, 10, 163);
+    background-color: var(--primary-color-dark-purple);
     transition-delay: .3s;
 }
 
@@ -156,7 +156,7 @@
 }
 
 .banner-section__link-vector:not(:active):focus::before  {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--primary-color-pink);
     border-radius: 0%;
     transition-duration: 0.3s;
     transition-property: all;
@@ -164,7 +164,7 @@
 
 .banner-section__link-vector:active  {
     background-image: url("../img/vector.png");
-    background-color: #CD06FF;
+    background-color:var(--primary-color-pink);
     outline: transparent;
     border: 1px solid transparent;
     transition-duration: 0.3s;

@@ -59,7 +59,7 @@
     left: -1px;
     display: block;
     background-color: transperent;
-    border: 1px solid #CD06FF;
+    border: 1px solid var(--primary-color-pink);
     outline: none; 
     border-radius: 50%;
 }
@@ -73,7 +73,7 @@
 .reserved-section__input-checkbox:checked::before {
     background-color: transperent;
     position: absolute;
-    border: 1px solid #CD06FF;
+    border: 1px solid var(--primary-color-pink);
     outline: none;
     content: '';
     inset: 0;
@@ -140,7 +140,7 @@
 }
 
 .reservation-section__label-text:hover {
-    border:3px solid rgb(100, 10, 163);
+    border:3px solid var(--primary-color-dark-purple);
     background-color: rgb(234, 222, 237);
     transition-delay: .3s;
 }
@@ -148,29 +148,21 @@
 
 .reservation-section__label-text:active {
     border:3px solid #fff;
-    background-color: rgb(108, 2, 135);
+    background-color: var(--primary-color-violet);
     transition-delay: .3s;
     color: #fff;
 }
 
-/* .reservation-section__label-text::before {
-    position: absolute;
-    content: '';
-    display: block;
-    inset: 0;
-    
-} */
 .reservation-section__input-hall:checked + .reservation-section__label-text{
     border:3px solid #fff;
-    background-color: rgb(108, 2, 135);
+    background-color: var(--primary-color-violet);
     color: #fff;
     transition-delay: .3s;
 }
 
 .reservation-section__input-hall:focus + .reservation-section__label-text {
-    border:3px solid rgb(100, 10, 163); 
+    border:3px solid var(--primary-color-dark-purple); 
     transition-delay: .3s;
-    /* background-color: rgb(255, 255, 255); */
 }
 
 
