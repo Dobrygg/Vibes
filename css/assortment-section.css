@@ -34,7 +34,6 @@
 }
 
 .assortment-section__img {
-    content: "";
     position: absolute;
     inset: 0;
     display: block;
