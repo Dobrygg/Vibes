@@ -12,7 +12,13 @@
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
-                <img src="img/logo-white.svg" alt="Логотип компании">
+                <svg class="header__line-svg" width="54" height="29" viewBox="0 0 54 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="54" height="5" rx="2" fill="currentColor"/>
+                    <rect y="12" width="54" height="5" rx="2" fill="currentColor"/>
+                    <rect y="24" width="31" height="5" rx="2" fill="currentColor"/>
+                </svg>
+                <img class="header__logo-svg" src="img/logo-white.svg" alt="Логотип компании">
+                    
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
@@ -64,9 +70,11 @@
                             <p class="banner-section__text">Новейшая аппаратура</p>
                         </div>
                     </div>
-                    <a href="#reserved" class="banner-section__link">
-                        Забронировать
-                    </a>
+                    <div class="banner-section__link-wrapper">
+                        <a href="#reserved" class="banner-section__link">
+                            Забронировать
+                        </a>
+                    </div>
                     <a href="#assortiment" class="banner-section__link-vector">
 
                     </a>
@@ -105,7 +113,7 @@
                     </li>   
                 </ul>
             </div>
-        </section>
+        <!-- </section>
         <section class="hall-section" id="hall">
             <div class="container">
                 <h2 class="title">Наши залы</h2>
@@ -333,7 +341,7 @@
                     </li>
                 </ul>
             </div>   
-        </section>
+        </section> -->
     </main>       
     <footer class="footer" id="contact">
         <div class="container">
