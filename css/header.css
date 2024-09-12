@@ -128,6 +128,9 @@
     }
 }
 @media(max-width:550px){
+    .container {
+        padding: 0 16px;
+    }
     .header__logo-svg {
         max-width: 66px;
         max-height: 42px;

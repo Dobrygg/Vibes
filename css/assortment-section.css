@@ -252,6 +252,9 @@
     }
 }
 @media(max-width:530px){
+    .container {
+        padding: 0 16px;
+    }
     .assortment-section {
         padding: 23px 0 15px;
     }

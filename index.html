@@ -113,7 +113,7 @@
                     </li>   
                 </ul>
             </div>
-        <!-- </section>
+        </section>
         <section class="hall-section" id="hall">
             <div class="container">
                 <h2 class="title">Наши залы</h2>
@@ -149,22 +149,28 @@
                         method="post">    
                         <fieldset class="reservation-section__fieldset">
                             <legend class="reservation-section__legend">Выбери зал</legend>
-                            <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="80's-vibes" id="80">
-                            <label class="reservation-section__label-text" for="80">
-                                80's vibes
-                            </label>
-                            <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="star-wars" id="star">
-                            <label class="reservation-section__label-text" for="star">
-                                star wars
-                            </label>
-                            <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="wild-west" id="wild">
-                            <label class="reservation-section__label-text" for="wild">
-                                wild west
-                            </label>
-                            <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="neon-style" id="neon">
-                            <label class="reservation-section__label-text" for="neon">
-                                neon style
-                            </label>
+                            
+                            <div class="reservation-section__data-wrapper">
+                                
+                                <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="80's-vibes" id="80">
+                                <label class="reservation-section__label-text" for="80">
+                                    80's vibes
+                                </label>
+                                <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="star-wars" id="star">
+                                <label class="reservation-section__label-text" for="star">
+                                    star wars
+                                </label>
+                            </div>
+                            <div class="reservation-section__data-wrapper">
+                                <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="wild-west" id="wild">
+                                <label class="reservation-section__label-text" for="wild">
+                                    wild west
+                                </label>
+                                <input class="reservation-section__input-hall visually-hidden" type="radio" name="hall" value="neon-style" id="neon">
+                                <label class="reservation-section__label-text" for="neon">
+                                    neon style
+                                </label>
+                            </div>
                         </fieldset>
                     <fieldset>
                         <legend class="reservation-section__legend"> Собери набор развлечений</legend>
@@ -230,9 +236,11 @@
                                         <input class=" reservation-section__label-input
                                         reservation-section__input-date" type="time" name="time" placeholder="Время" required>
                                     </div>
-                                    <input class="reservation-section__label-input" type="number" name="people" placeholder="Сколько человек"  required>
+                                    <input class="reservation-section__label-input 
+                                    reservation-section__label-input_quantity-people" type="number" name="people" placeholder="Сколько человек"  required>
                                 </div>
-                                <div class=" reservation-section__label-wrapper
+                                
+                                <div class="reservation-section__label-wrapper
                                 reservation-section__label-wrapper_width-less">
                                     <label class="reservation-section__label-data" for="name">Имя</label> 
                                     <input class="reservation-section__input-name" type="text" name="name" id="name"  required>
@@ -244,7 +252,7 @@
                                     <input class="reservation-section__label-input" type="tel" name="phone" minlength="11" maxlength="11"  id="phone" required> 
                                     <label class="reservation-section__label-data" for="email">E-mail</label>
                                     <input class="reservation-section__label-input" type="email" name="email"  id="email" required>
-                                </div>
+                                </div> 
                             </div>    
                         </fieldset>        
                     <div class="button-reservation-wrapper">
@@ -253,7 +261,7 @@
                 </form>
             </div>    
         </section>
-        <section class="about-section" id="about">
+        <!-- <section class="about-section" id="about">
             <div class="container">
                 <h2 class="title">О нас</h2>
                 <div class="about-section__images-wrapper">
