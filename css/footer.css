@@ -165,3 +165,12 @@
     text-align: right;
 }
 
+
+
+
+
+@media(max-width:550px){
+    .container {
+        padding: 0 16px;
+    }
+}

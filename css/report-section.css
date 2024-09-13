@@ -62,3 +62,13 @@
 .report-section__images_position_top {
     object-position: 50% 55%;
 }
+
+
+
+
+
+@media(max-width:550px){
+    .container {
+        padding: 0 16px;
+    }
+}

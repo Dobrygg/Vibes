@@ -305,13 +305,17 @@
         max-width: 545px;
     }
 }
+
+@media(max-width:550px){
+    .container {
+        padding: 0 16px;
+    }
+}
+
 @media(max-width:556px){
     .about-section__text{
         font-size: 12px;
         line-height: calc(16 / 12);
-    }
-    .container {
-        padding: 0 16px;
     }
     .about-section__images-wrapper {
         padding: 0 26px 0 0;
