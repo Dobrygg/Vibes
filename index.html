@@ -286,9 +286,9 @@
                 </div>
             </div>    
         </section>
-        <!-- <section class="report-section" id="report">
+        <section class="report-section" id="report">
             <div class="container">
-                <h2 class="title">Отзывы посетителей</h2>
+                <h2 class="title report-section__title">Отзывы посетителей</h2>
                 <ul class="report-section__list">
                     <li class="report-section__item">
                         <figure class="report-section__figure" >
@@ -322,38 +322,48 @@
         </section>
         <section class="question-section">
             <div class="container"> 
-                <h2 class="title">
+                <h2 class="title question-section__title">
                     Частые вопросы
                 </h2>
                 <ul class="question-section__list">
                     <li class="question-section__item">
-                        Можно ли забронировать комнату онлайн?
+                        <span class="question-section__span">
+                            Можно ли забронировать комнату онлайн?
+                        </span> 
                     </li>
                     <li class="question-section__item">
-                        Могут ли вернуть деньги за бронь?
+                        <span class="question-section__span">
+                            Могут ли вернуть деньги за бронь?
+                        </span> 
                     </li>
                     <li class="question-section__item">
-                        Какая комната самая популярная?
+                        <span class="question-section__span">
+                            Какая комната самая популярная?
+                        </span> 
                     </li>
                     <li class="question-section__item">
-                        Как получить VIP карту?
+                        <span class="question-section__span">
+                            Как получить VIP карту?
+                        </span> 
                     </li>
                     <li class="question-section__item">
-                        Какая комната самая популярная?
+                        <span class="question-section__span">
+                            Какая комната самая популярная?
+                        </span> 
                     </li>
                 </ul>
             </div>   
-        </section>  -->
+        </section>  
     </main>       
-    <!-- <footer class="footer" id="contact">
+    <footer class="footer" id="contact">
         <div class="container">
-            <h2 class="title">Контакты</h2>
+            <h2 class="title footer__title">Контакты</h2>
             <div class="footer__wrapper">
                 <div class="footer__adress-wrapper">
                     <address class="address">
                         <p class="address__contact address__contact_type_location">
-                            г. Москва
-                            ул. Аквамарина, 16
+                            <span>г. Москва</span>
+                            ул. Усачёва, 29 к3
                         </p>
                         <a class="address__contact  address__contact_type_phone" href="tel:89509302893">8(950) 930 - 28 - 93</a>
                         <a class="address__contact address__contact_type_email" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
@@ -403,7 +413,11 @@
                     </ul>
                 </div>
                 <div class="footer__map-wrapper">
-                    <img src="img/map.jpg" alt="Изображение карты города">
+                    <picture>
+                        <source class="footer__img-map" srcset="img/map.jpg" media="(max-width: 850px)">
+                        <img class="footer__img-map" src="img/map 1024x768.jpg" alt="Изображение карты города">
+                    </picture>
+                    <!-- <img class="footer__img-map" src="img/map.jpg" alt="Изображение карты города"> -->
                 </div>
             </div>
             <div class="footer__script-wrapper">
@@ -420,6 +434,6 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer> 
 </body>
 </html>
