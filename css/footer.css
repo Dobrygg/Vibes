@@ -27,11 +27,12 @@
     margin: 0;
 }
 
-.address__contact_type_location{
-    margin: 0 0 38px;
+.address-wrapper{
+    margin: 0 0 39px;
     background-position: 0% 61%;
     background-image: url("../img/tracker.svg");
-    white-space: pre-line;
+    /* background-size: 32px 32px; */
+    background-repeat: no-repeat;
 }    
 
 .address__contact_type_phone {
@@ -195,10 +196,10 @@
         margin: 0;
     }
     
-    .address__contact_type_location{
-        margin: 0 0 40px;
+    .address-wrapper {
         background-image: url("../img/tracker.svg");
         background-size: 26px 26px;
+        margin-bottom: 40px;
     }    
     
     .address__contact_type_phone {
@@ -266,11 +267,15 @@
         font-size: 24px;
         line-height: calc(36 / 24);
     }
+    .address__contact_padding-left {
+        padding-left: 50px;
+    }
     
     .address {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 27px;
     }
     
     .address__contact {
@@ -288,9 +293,10 @@
         margin: 0;
     }
     
-    .address__contact_type_location{
-        margin: 0 0 40px;
-        padding: 0;
+    .address-wrapper{
+        margin: 0 0 27px;
+        background-position: 20% 12%;
+        padding: 5px 0 0 ;
         background-image: url("../img/tracker.svg"); 
         background-size: 26px 26px; 
     }    
@@ -299,12 +305,12 @@
         flex-direction: column;
         align-items: center;
     }
-    span{
+    .footer__contact-text{
         padding-left: 40px;
     }
 
     .address__contact_type_phone {
-        margin-bottom: 7px;
+        margin-bottom: 27px;
         background-size: 26px 26px;
         background-image: url("../img/tel.svg"); 
     }    
@@ -313,10 +319,7 @@
         background-size: 26px 26px;
         background-image: url("../img/mail.svg");
     }
-    .address__contact_type_location {
-        background-position: 0% 55%;
-        margin-bottom: 27px;
-    }
+    
     .social-list__item {
         display: inline-block;
         vertical-align: middle;
@@ -383,7 +386,7 @@
             line-height: calc(18 / 14);
         } 
         
-        .address__contact_type_location{
+        .address-wrapper{
             margin: 0 0 10px;
             padding: 0;
             background-size: 20px 20px; 
@@ -393,7 +396,7 @@
             flex-direction: column;
             align-items: center;
         }
-        span{
+        .footer__contact-text{
             padding-left: 30px;
         }
     
@@ -405,9 +408,8 @@
         .address__contact_type_email{
             background-size: 20px 20px;
         }
-        .address__contact_type_location {
-            background-position: 0% 55%;
-            margin-bottom: 27px;
+        .address__contact_padding-left {
+            padding-left: 25px;
         }
         .social-list__item {
             display: inline-block;

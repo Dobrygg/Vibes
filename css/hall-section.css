@@ -144,7 +144,7 @@
     .hall-section__item {
         display: inline-block;
         vertical-align: middle;
-        width: 100%;
+        width: calc(100% - 20px);
         margin: 10px;
     
     }

@@ -216,9 +216,10 @@
         margin-bottom: 15px;
     }
     .report-section__figure {
-        display: inline-block;
-        vertical-align: top;
+        display: flex;
         margin-right: 0;
+        flex-direction: column;
+        align-items: center;
     }
     
     .report-section__text {
