@@ -336,7 +336,7 @@
 
 .reserved-section__time-wrapper {
     display: flex;
-    flex-basis: 300px;
+    /* flex-basis: 300px; */
     justify-content: space-between;
     margin-bottom: 36px;
 }
@@ -542,7 +542,7 @@
         width: calc((100% - 40px) /2);
     }
     .reserved-section__time-wrapper {
-        width: calc((100% - 20px) /2);
+        width: calc((100% - 40px) /2);
     }
     .reservation-section__label-input_quantity-people {
         width: calc((100% - 20px) /2);
@@ -586,7 +586,7 @@
     .reservation-section {
         padding: 30px 0 30px;
     }
-    .title {
+    .reservation-section__title {
         font-size: 14px;
         line-height: calc(20 / 14);
         margin-bottom: 13px;
@@ -678,7 +678,7 @@
     .reserved-section__time-wrapper {
         justify-content: start;
         gap: 14px;
-        flex-basis: 52px;
+        /* flex-basis: 52px; */
     
     }
     .reservation-section__input-date{

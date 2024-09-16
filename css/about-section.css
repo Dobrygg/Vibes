@@ -331,15 +331,11 @@
 
 
 @media(max-width:450px){
-    .about-section__title{
-        font-size: 12px;
-        line-height: calc(18 / 12);
-        margin-bottom: 15px;
-    }
+    
     .about-section__container{
         display: flex;
         flex-direction: column;
-        row-gap: 15px;
+        /* row-gap: 15px; */
     }
     .about-section__images-wrapper {
         order: 1;
@@ -395,6 +391,11 @@
 }
 
 @media(max-width:400px){
+    .about-section__title{
+        font-size: 14px;
+        line-height: calc(18 / 14);
+        margin-bottom: 15px;
+    }
     .about-section__blockquote {
         top: 386%;
         left: 0;
