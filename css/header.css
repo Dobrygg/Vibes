@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .header__line-svg {
@@ -89,6 +90,76 @@
     background-color: var(--primary-color-dark-purple);
     border: 3px solid var(--primary-color-dark-purple);
     transition-duration: .3s;
+}
+
+.header__back-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+
+}
+
+.header__back-link {
+    font-size: 22px;
+    line-height: calc(28 / 22);
+    font-weight: 700;
+    display: flex;
+    gap: 10px;
+    color: var(--primary-color-white);
+    background-repeat: no-repeat;
+    background-size: 30px 25px;
+}
+.header__back-svg {
+    fill: var(--primary-color-white);
+    cursor: pointer;
+}
+.header__back-svg:hover {
+    fill: var(--primary-color-light-purple);
+    transition-delay: .3s;
+}
+.header__back-svg:focus {
+    color: var(--primary-color-light-purple);
+    transition-delay: .3s;
+}
+.header__back-svg:active {
+    fill: var(--primary-color-dark-purple);
+    transition-delay: .3s;
+}
+
+
+/*.header__back-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 25px;
+     background-image: url(../img/Arrow_back.png); 
+    background-repeat: no-repeat;
+    background-size: 30px 25px;
+}*/
+/* .header__back-link:hover::before{
+    color: var(--primary-color-light-purple);
+    transition-duration: .3s;
+    transition-property: background-color;
+}
+ */
+
+
+.header__back-link:hover{
+    color: var(--primary-color-light-purple);
+    transition-delay: .3s;
+    transition-property: background-color;
+    
+}
+.header__back-link:focus{
+    color: var(--primary-color-light-purple);
+    transition-duration: .3s;
+    
+}
+.header__back-link:active {
+    color: var(--primary-color-dark-purple);
+    transition-duration: .3s;
+    
 }
 
 
